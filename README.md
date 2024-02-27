@@ -1,4 +1,4 @@
-### This project is tested with `python=3.8`
+### This project is tested with `python=3.10`
 
 # Pre-requisites
 1. Clone the repository with the following command: 
@@ -64,7 +64,7 @@ python train_baseilne_xlingual.py
 python train_maml_xlingual.py --max_steps 0 --resume_from_checkpoint True --checkpoint_path <path_to_checkpoint>
 ```
 
-# Test 
+# GUI 
 You can test our best model with gui. This will run a server on your local machine and you can access the page by going to the following link: `http://127.0.0.1:7860/`
 
 1. Download the model from the following [link](https://drive.google.com/file/d/1IwGmlufzDrIKwmOAKMob18VMS1-aKHzj/view?usp=sharing) and place it in the folder `checkpoint/`   
