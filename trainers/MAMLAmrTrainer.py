@@ -168,7 +168,7 @@ class MAMLAmrTrainer:
             checkpoint_path = self.checkpoint_dir / f"checkpoint-{best_step}.pt"
             logger.info(f"best model loaded from {checkpoint_path}")
 
-        checkpoint = torch.load(checkpoint_path)
+        checkpoint = torch.load(checkpoint_path, map_location=self.device)
 
         self._model.load_state_dict(checkpoint['model_state_dict'])
         self._model.to(device=self.device)

@@ -35,6 +35,7 @@ def split_to_subset(dataset, num_subsets) -> list:
 def main(args):
     # 0. Init some variables
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    logger.info(f"Using device {device}")
 
     # 1. load tokenizer
     logger.info("Loading tokenizer")
