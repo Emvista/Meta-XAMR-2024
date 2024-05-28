@@ -1,6 +1,14 @@
+## Original data on https://amr.isi.edu/download.html
+## Modified by Jeongwoo KANG on 2024-05-28
+## This data is based on the Little Prince AMR dataset on https://amr.isi.edu/download.html
+## We added translations in Korean and Croatian to the original dataset
+## Below is the original dataset + Korean and Croatian translations
+
 # AMR (Abstract Meaning Representation) release v1.6
 # Le Petit Prince ("The Little Prince"), a 1943 novel by Antoine de Saint-Exupery (1562 sentences)
 # generated on Fri Mar 4, 2016 at 21:03:52
+
+
 
 # ::id lpp_1943.1 ::date 2012-06-07T17:06:07 ::annotator ISI-AMR-05 ::preferred
 # ::snt Chapter 1 .
