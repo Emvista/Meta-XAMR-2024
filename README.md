@@ -74,6 +74,9 @@ You can test our best model with gui. This will run a server on your local machi
 python gui_amr_parser.py 
 ```
 
+# Evaluation data in Korean & Croatian 
+You can find the data file named `amr-bank-struct-v1.6_ko+hr.txt` under the root directory.  
+
 # Citation 
 If you use this code, please cite the following paper: 
 ```bibtex
